@@ -26,11 +26,6 @@ function evaluateQuiz( array $questions, array $answers):int{
     return $score;
 }
 
-
-
-
-
-
 $score = evaluateQuiz($questions, $answers);
 echo "\n Your score is $score out of ". count($question).".\n";
 if ($score === count($question)){
