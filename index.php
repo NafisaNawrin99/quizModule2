@@ -26,12 +26,10 @@ function evaluateQuiz( array $questions, array $answers):int{
     return $score;
 }
 
-git init
-README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/NafisaNawrin99/quizModule2.git
-git push -u origin main
+
+
+
+
 
 $score = evaluateQuiz($questions, $answers);
 echo "\n Your score is $score out of ". count($question).".\n";
